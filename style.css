@@ -8,13 +8,17 @@ body {
 section {
     background-color: rgb(200, 200, 200);
     font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 header {
     font-size: 20px;
+    text-align: center;
 } 
 
 footer {
-    font-size: 20;
+    font-size: 30;
+    text-align: right;
 }
 
