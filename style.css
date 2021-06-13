@@ -9,12 +9,13 @@ section {
     background-color: rgb(200, 200, 200);
     font-size: 25px;
     border-radius: 10px;
-    text-align: center;
-    padding-bottom: 50px;
+    text-align: left;
     padding-left: 10;
     padding-right: 10;
+    padding-bottom: 200px;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 header {
@@ -27,4 +28,9 @@ footer {
     font-size: 30;
     color: rgb(250, 250, 250);
     text-align: right;
+}
+
+img {
+    float: right;
+    margin-right: 10px;
 }
