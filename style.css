@@ -9,7 +9,6 @@ section {
     background-color: rgb(200, 200, 200);
     font-size: 25px;
     border-radius: 10px;
-    
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -44,14 +43,26 @@ p {
     display: table;
 }
 
-.texto {
+.texto1 {
     display: table-cell;
-    
+    margin: 10px;
 }
 
-.imagem {
+.texto2 {
+    display: table-cell;
+    margin: 10px;
+    text-align: left;
+}
+
+.imagem1 {
     display: table-cell;
     float: left;
+    margin: 10px;
+}
+
+.imagem2 {
+    display: table-cell;
+    float: right;
     margin: 10px;
 }
 
