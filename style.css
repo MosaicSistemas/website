@@ -33,12 +33,6 @@ img {
     float: right;
 }
 
-p {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-indent: 20px;
-}
-
 .conteudo {
     display: table;
 }
@@ -46,12 +40,13 @@ p {
 .texto1 {
     display: table-cell;
     margin: 10px;
+    float: left;
 }
 
 .texto2 {
     display: table-cell;
     margin: 10px;
-    text-align: left;
+    float: right;
 }
 
 .imagem1 {
