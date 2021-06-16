@@ -29,10 +29,6 @@ h2 {
     text-align: center;
 }
 
-img {
-    float: right;
-}
-
 .conteudo {
     display: table;
 }
@@ -47,6 +43,7 @@ img {
     display: table-cell;
     margin: 10px;
     float: right;
+    
 }
 
 .imagem1 {
