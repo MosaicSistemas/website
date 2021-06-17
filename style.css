@@ -35,13 +35,13 @@ h2 {
 
 .texto1 {
     display: table-cell;
-    margin: 10px;
+    margin: 15px;
     float: left;
 }
 
 .texto2 {
     display: table-cell;
-    margin: 10px;
+    margin: 15px;
     float: right;
 }
 
