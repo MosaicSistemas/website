@@ -48,12 +48,12 @@ h2 {
 .imagem1 {
     display: table-cell;
     float: left;
-    margin: 10px 15px;
+    margin: 15px;
 }
 
 .imagem2 {
     display: table-cell;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 .link {
