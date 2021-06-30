@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(0, 70, 250);
+    background-color: #002efa;
 }
 
 
@@ -9,8 +9,8 @@ section {
     background-color: rgb(200, 200, 200);
     font-size: 25px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px;
+    padding: 0px 10px;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 } 
 
 footer {
-    font-size: 30;
+    font-size: 30px;
     color: rgb(250, 250, 250);
     text-align: right;
 }
@@ -29,33 +29,36 @@ h2 {
     text-align: center;
 }
 
+img {
+    
+}
+
 .conteudo {
     display: table;
 }
 
 .texto1 {
     display: table-cell;
-    margin: 15px;
+    margin-left: 10px;
     float: left;
 }
 
 .texto2 {
     display: table-cell;
-    margin: 15px;
     float: right;
 }
 
 .imagem1 {
     display: table-cell;
     float: left;
-    margin: 15px;
+    margin-right: 10px;
 }
 
 .imagem2 {
     display: table-cell;
-    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .link {
-    text-align: center;
+    padding: 10px;
 }
