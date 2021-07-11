@@ -7,7 +7,7 @@ body {
 
 section {
     background-color: rgb(200, 200, 200);
-    font-size: 25px;
+    font-size: 5vw;
     border-radius: 10px;
     margin: 0px 20px;
     padding: 0px 10px;
@@ -33,28 +33,20 @@ h2 {
     display: table;
 }
 
-.texto1 {
+.texto {
     display: table-cell;
     margin-left: 10px;
     float: left;
 }
 
-.texto2 {
-    display: table-cell;
-    float: right;
-}
 
-.imagem1 {
-    display: table-cell;
+.imagem {
+    display: table-column;
     float: left;
     margin-right: 10px;
 }
 
-.imagem2 {
-    display: table-cell;
-    margin-left: 10px;
-}
-
 .link {
     padding: 10px;
+    margin: auto;
 }
