@@ -1,22 +1,18 @@
 @charset "UTF-8";
 
-body {
-    background-color: #002efa;
-}
+/*
+azul = #0046f4
+cinza = #c8c8c8
+*/
 
-
-section {
-    background-color: rgb(200, 200, 200);
-    font-size: 4vw;
-    border-radius: 10px;
-    margin: 0px 20px;
+main {
+    background-color: #c8c8c8;
+    font-size: 25px;
     padding: 0px 10px;
 }
 
 header {
-    font-size: 20px;
-    color: rgb(250, 250, 250);
-    text-align: center;
+    background-color: #0046f4;
 } 
 
 footer {
@@ -46,7 +42,26 @@ h2 {
     margin-right: 10px;
 }
 
+
+.titulo {
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    background-color: #0046f4;
+    display: inline-block;
+    }
+
 .link {
-    padding: 10px;
-    margin: auto;
+    background-color: #0046f4;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    float: right;
+    
 }
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 25px 10px;
+}
+
