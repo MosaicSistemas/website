@@ -26,6 +26,15 @@ h2 {
     text-align: center;
 }
 
+.link {
+    background-color: #0046f4;
+    color: #ffffff;
+    
+    font-size: 15px;
+    float: right; 
+}
+
+
 .conteudo {
     display: table;
 }
@@ -51,14 +60,7 @@ h2 {
     display: inline-block;
     }
 
-.link {
-    background-color: #0046f4;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 15px;
-    float: right;
-    
-}
+
 
 button {
     width: 150px;
