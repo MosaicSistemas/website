@@ -48,7 +48,7 @@ footer {
 h1 {
     color: white;
     font-family: 'azonix';
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
 }
 h2 {
@@ -64,7 +64,7 @@ h2 {
 }
 img {
     width: 100%;
-    max-width: 1000px;
+    max-width: 750px;
 }
 
 .link {
