@@ -21,7 +21,7 @@ body {
 main {
     background-color: #c8c8c8;
     font-size: 30px;
-    padding: 0px 10px;
+    padding: 10px 10px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(0, 0, 150);
     border-radius: 5px;
@@ -33,10 +33,6 @@ header {
     color: #ffffff;
     margin: 0px;
 } 
-a {
-    color: white;
-}
-
 h1 {
     color: white;
     font-family: 'azonix';
@@ -48,7 +44,6 @@ h2 {
     width: fit-content;
     font-size: 50px;
     font-family: 'azonix';
-    letter-spacing: 1px;
     margin-bottom: 10px;
     border-style: solid;
     border-width: 0px 0px 12.5px 0px;
@@ -56,22 +51,36 @@ h2 {
         to right, rgb(0, 0, 150), rgb(0, 155, 255));
     border-image-slice: 1;
 }
-.main {
-    width: 95%;
-    border: solid 10px rgb(110,110,110);
-    background-color: black;
+ul {
+    list-style-type: square;
+}
+.image {
+    width: 100%;
     margin: 0px 5px 0px 0px;   
 }
+
 .link {
-    color: white;
-    background: none;
-    float: left;
-    display: inline-block;
+    width: 400px;
+    min-height: 44px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(110,110,110);
+    margin: auto;
+    font-size: 30px;
+}
+a:hover {
+    color: rgb(0, 70, 255);
+}
+a:active {
+    color: rgb(255,255,255);
 }
 
 @media (max-width: 500px) {
     main {
         text-align: center;
+        font-size: 25px;
+    }
+    .link {
         font-size: 25px;
     }
 }
