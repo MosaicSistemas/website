@@ -89,7 +89,10 @@ img {
 .inline-p {
     max-width: 500px;
     float: left;
-    
+}
+
+.block {
+    padding: 5px;
 }
 
 .inline-g {
