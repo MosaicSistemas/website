@@ -44,7 +44,6 @@ p {
 header {
     max-height: 75px;
 
-
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
@@ -101,15 +100,28 @@ section.inline-3 {
     float: left;
 }
 
+#logo {
+    float: left;
+}
 
 @media (max-width: 500px) {
 
     h1 {
         margin: auto;
+        float: none;
+        font-size: 65px;
     }
 
+    header {
+        max-height: 65px;
+    }
     section.inline-3 {
         max-width: none;
         float: none;
+    }
+
+    #logo {
+        width: 74px;
+        height: 65px
     }
 }
