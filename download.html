@@ -13,22 +13,27 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        #p1 {
+        #widows {
             grid-column: 1;
             grid-row: 2;
+            margin-right: 15px;
         }
 
-        #p2 {
+        #linux {
             grid-column: 2;
             grid-row: 2;
+            margin-right: 0px;
+        }
+
+        #mac {
+            grid-column: 3;
+            grid-row: 2;
             margin-right: 15px;
-            font-size: 15px;
         }
 
         main {
-            grid-template-columns: 300px auto;
-            grid-template-rows: 50px auto;
-            column-gap: 15px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 70px auto;
         }
 
     </style>
@@ -66,18 +71,41 @@
 
 <main>
     <h1>
-        Estoque
+        Download
     </h1>
-    
-    <form action="">
-        
-        <input type="text" id="codigo" placeholder="Codigo">
-    
-    </form>
-   <table>
 
-   </table>
-   
+    <section id="windows">
+        <h2>
+            Windows 64bits
+        </h2>
+
+        <ul>
+            <li> <a href=""> Instalador</a></li>
+            <li> <a href=""> Arquivo .ZIP</a></li>
+        </ul>
+    </section>
+    
+    <section id="linux">
+        <h2>
+            Linux
+        </h2>
+
+        <p>
+            Versão para Linux <br> 
+            indisponivel no momento
+        </p>
+    </section>
+
+    <section id="mac">
+        <h2>
+            Mac
+        </h2>
+
+        <p>
+            Versão para MacOS <br> 
+            indisponivel no momento
+        </p>
+    </section>
 </main>
 
 
